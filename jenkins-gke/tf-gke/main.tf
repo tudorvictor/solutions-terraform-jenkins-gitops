@@ -190,7 +190,7 @@ resource "helm_release" "jenkins" {
   name       = "jenkins"
   repository = "https://charts.helm.sh/stable"
   chart      = "jenkins"
-  version    = "3.6.0"
+  version    = "3.3.22"
 //  version    = "1.9.18"
   timeout    = 1200
 
